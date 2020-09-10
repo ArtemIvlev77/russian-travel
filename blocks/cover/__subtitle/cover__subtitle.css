@@ -3,11 +3,12 @@ position: relative;
 width: 360px;
 height: 66px;
 Font-Family: 'Inter';
-Font-Style: 'Regular';
+Font-Style: normal;
 Font-Size: 18px;
 Line-Height: 1.22;
 text-align: Center;
 Vertical-Align: Top;
+color: #FFFFFF;
 margin-top: 32px;
 z-index: 1;
 }
