@@ -1,0 +1,10 @@
+.footer__copyright {
+  font-family: 'Inter';
+  font-style: 'Regular';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: right;
+  color:#FFFFFF;
+  display: flex;
+}

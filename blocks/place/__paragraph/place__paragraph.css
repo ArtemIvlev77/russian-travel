@@ -1,0 +1,16 @@
+.place__paragraph {
+  grid-area: place__paragraph;
+  max-width: 100%;
+  width: 100%;
+  min-height: 265px;
+  font-family: 'Inter';
+  font-style: 'Regular';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  text-align: left;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}

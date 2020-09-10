@@ -1,0 +1,12 @@
+.footer__link {
+  list-style: none;
+  font-family: 'Inter';
+  font-style: 'Regular';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  color:#FFFFFF;
+  text-decoration-line: none;
+  margin-right: 18px;
+  
+}

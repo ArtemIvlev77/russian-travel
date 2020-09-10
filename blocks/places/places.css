@@ -1,0 +1,17 @@
+.places {
+ margin: 0px;
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+  }
+}

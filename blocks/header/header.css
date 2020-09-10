@@ -1,0 +1,20 @@
+.header {
+  max-width: 1184px;
+  height: 52px;
+  font: 'Inter';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 48px;
+  margin-top: 24px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+    height: 42px;
+    margin: 16px;
+    margin-bottom: 48px;
+  }
+}

@@ -1,0 +1,24 @@
+.place {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 984px; 
+  display: grid;
+  grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
+  grid-template-rows:minmax(46px, 152px) minmax(340px, 460px);
+  grid-template-areas: 
+  "place__title place__website"
+  "place__image place__paragraph";
+  gap: 4% 5%;
+  border: 1px solid red;
+  
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 320px;
+  grid-template-areas:
+  "place__title"
+  "place__image"
+  "place__paragraph";
+}
+}
