@@ -11,6 +11,6 @@
     .photo-grid {
     max-width: 320px;
     grid-template-columns: 288px;
-    grid-template-rows: repeat(autofit);
+    grid-template-rows: repeat(auto-fit);
     }
 }
