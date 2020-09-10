@@ -8,5 +8,32 @@
   color:#FFFFFF;
   text-decoration-line: none;
   margin-right: 18px;
-  
+  transition: opacity .2s linear;
 }
+
+.footer__link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .footer__link:last-of-type {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .footer__link:last-of-type {
+    margin-bottom: 48px;
+  }
+}
+
+

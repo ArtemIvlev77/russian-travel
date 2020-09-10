@@ -1,7 +1,6 @@
 .cover__subtitle {
 position: relative;
-width: 360px;
-height: 66px;
+max-width: 360px;
 Font-Family: 'Inter';
 Font-Style: normal;
 Font-Size: 18px;

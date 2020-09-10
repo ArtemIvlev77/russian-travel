@@ -1,24 +1,57 @@
 .place {
   margin: 0 auto;
-  width: 100%;
-  max-width: 984px; 
+  max-width: 984px;
+  width: 100vw;
   display: grid;
-  grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
-  grid-template-rows:minmax(46px, 152px) minmax(340px, 460px);
-  grid-template-areas: 
+  grid-template-columns: 460px 1fr;
+  grid-template-areas:
   "place__title place__website"
   "place__image place__paragraph";
-  gap: 4% 5%;
-  border: 1px solid red;
-  
+  justify-content: center;
+  column-gap: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    column-gap: 32px;
+    grid-template-columns: 440px 1fr
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+     column-gap: 28px;
+     grid-template-columns: 340px 1fr
+
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .place {
+    max-width: 100%;
+    width: 100%;
+    grid-template-areas:
+      ". place__title ."
+      ". place__image ."
+      ". place__paragraph .";
+    column-gap: 0px;
+    grid-template-columns: 1fr;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .place {
-    max-width: 320px;
-  grid-template-areas:
-  "place__title"
-  "place__image"
-  "place__paragraph";
+   max-width: 100%;
+   width: 100%;
+    grid-template-areas:
+  ". place__title ."
+  ". place__image ."
+  ". place__paragraph .";
+  column-gap: 0px;
+  grid-template-columns: 1fr;
 }
 }

@@ -7,6 +7,26 @@
  margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 928px;
+  
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead {
+    max-width: 425px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead {
     max-width: 320px;

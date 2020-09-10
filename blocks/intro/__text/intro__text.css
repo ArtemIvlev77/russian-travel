@@ -10,8 +10,31 @@
   line-height: 163%;
 }
 
+@media screen and (max-width: 650px) {
+  .intro__text {
+    max-width: 600px;
+    width: 90%;
+    min-height: 300px;
+  }
+}
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
+  .intro__text {
+    max-width: 600px;
+    width: 90%;
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__text {
+    max-width: 380px;
+    min-height: 522px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
   .intro__text {
     max-width: 288px;
     min-height: 522px;

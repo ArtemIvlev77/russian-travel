@@ -1,0 +1,17 @@
+.place__paragraph-container {
+  width: 100%;
+  grid-area: place__paragraph;
+  padding-top: 48px;
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph-container {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-container {
+    padding-top: 32px
+  }
+}

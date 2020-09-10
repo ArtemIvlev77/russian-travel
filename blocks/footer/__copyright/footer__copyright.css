@@ -7,4 +7,22 @@
   text-align: right;
   color:#FFFFFF;
   display: flex;
+  align-self: center;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    align-self: start;
+    line-height: 1;
+    margin: 48px 0px 24px 16px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    align-self: start;
+    line-height: 1;
+    margin: 48px 0px 24px 16px;
+  }
 }
