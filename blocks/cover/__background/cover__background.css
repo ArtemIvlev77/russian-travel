@@ -35,17 +35,14 @@ background-repeat: no-repeat;
   .cover__background {
     max-width: 100%;
     min-height: 480px;
-    object-fit: cover;
-  }
+     }
 }
 
 @media screen and (max-width: 425px) {
   .cover__background {
     max-width: 100%;
     min-height: 100%;
-    object-fit:cover;
-  }
-
+     }
 }
 
 @media screen and (max-width: 320px) {
@@ -53,5 +50,4 @@ background-repeat: no-repeat;
   max-width: 320px;
   min-height: 200px;
   }
-
 }

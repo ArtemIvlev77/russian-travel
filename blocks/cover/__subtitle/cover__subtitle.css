@@ -16,7 +16,7 @@ z-index: 1;
   .cover__subtitle {
     max-width: 288px;
     width: 100%;
-    height: 48px;
+    min-height: 48px;
     margin: 16px;
     margin-bottom: 33px;
     font-size: 14px;
