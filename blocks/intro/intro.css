@@ -1,4 +1,5 @@
 .intro {
+font-family: 'Inter', Arial, sans-serif;
 width: 690px;
 display: flex;
 flex-direction: column;
@@ -6,12 +7,6 @@ margin-left: 148px;
 }
 
 
-
-@media screen and (max-width:1024px) {
-  .intro {
-   margin-left: 148px;
-  }
-}
 
 @media screen and (max-width:768px) {
   .intro {
@@ -24,14 +19,5 @@ margin-left: 148px;
   .intro {
     max-width: 380px;
     min-height: 200px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width:320px) {
-  .intro {
-    max-width: 288px;
-    min-height: 200px;
-    margin: 0 auto;
   }
 }

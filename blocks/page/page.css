@@ -3,6 +3,11 @@
   max-width: 1184px;
   background-color: #2A2C2F;
   color: #ffffff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (max-width:768px) {
@@ -15,7 +20,6 @@
   @media screen and (max-width: 650px) {
     .page {
       max-width: 650px;
-      width: 99vw;
     }
   }
 
@@ -24,14 +28,12 @@
 @media screen and (max-width: 425px) {
   .page {
     max-width: 425px;
-    width: 99vw;
   }
 
 }
 @media screen and (max-width: 320px) {
   .page {
   max-width: 320px;
-  width: 99vw;
   }
 
 }

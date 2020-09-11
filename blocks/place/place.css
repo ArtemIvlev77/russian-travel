@@ -1,4 +1,5 @@
 .place {
+   font-family: 'Inter', Arial, sans-serif;
   margin: 0 auto;
   max-width: 984px;
   width: 100vw;
@@ -40,18 +41,4 @@
     column-gap: 0px;
     grid-template-columns: 1fr;
   }
-}
-
-
-@media screen and (max-width: 320px) {
-  .place {
-   max-width: 100%;
-   width: 100%;
-    grid-template-areas:
-  ". place__title ."
-  ". place__image ."
-  ". place__paragraph .";
-  column-gap: 0px;
-  grid-template-columns: 1fr;
-}
 }

@@ -40,7 +40,6 @@ background-repeat: no-repeat;
 
 @media screen and (max-width: 425px) {
   .cover__background {
-    max-width: 100%;
     min-height: 100%;
      }
 }

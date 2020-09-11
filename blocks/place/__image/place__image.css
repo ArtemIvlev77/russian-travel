@@ -15,14 +15,7 @@
 
 @media screen and (max-width: 425px) {
   .place__image {
-    width: 100%;
-    padding-top: 32px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__image {
-    width: 100%;
+    width: 99vw;
     padding-top: 32px;
   }
 }
