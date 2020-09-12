@@ -34,7 +34,6 @@ background-repeat: no-repeat;
 
 @media screen and (max-width: 1200px) {
   .cover__background {
-    min-height: 62.25vh;
     max-width: 100%;
   }
 }
@@ -47,6 +46,13 @@ background-repeat: no-repeat;
   }
 }
 
+@media screen and (max-width: 834px) {
+  .cover__background {
+    max-width: 834px;
+    min-height:250px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .cover__background {
     max-width: 768px;
@@ -54,6 +60,26 @@ background-repeat: no-repeat;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .cover__background {
+    max-width: 600px;
+    min-height: 390px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .cover__background {
+    max-width: 414px;
+    min-height: 290px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .cover__background {
+    max-width: 384px;
+    min-height: 220px;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .cover__background {
