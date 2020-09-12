@@ -29,8 +29,7 @@
   }
 }
 
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 709px) {
   .place {
     max-width: 100%;
     grid-template-areas:
@@ -39,5 +38,6 @@
       ". place__paragraph .";
     column-gap: 0px;
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 }

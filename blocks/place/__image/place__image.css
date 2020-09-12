@@ -5,17 +5,8 @@
   padding-top: 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .place__image {
-    width: 340px;
-    height: 340px;
-  }
-}
-
-
-@media screen and (max-width: 425px) {
-  .place__image {
-    width: 99vw;
     padding-top: 32px;
   }
 }

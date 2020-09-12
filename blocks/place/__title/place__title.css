@@ -12,12 +12,12 @@
 
 @media screen and (max-width:768px) {
   .place__title {
-    font-size: 42px;
+    width: 92%;
     line-height: 46px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width:750px) {
   .place__title {
     font-size: 36px;
     line-height: 40px;

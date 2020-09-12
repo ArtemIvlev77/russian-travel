@@ -3,12 +3,12 @@
   list-style-type: none;
   display: flex;
   /* justify-content: flex-start; */
-  
+
 }
 
 
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:709px) {
   .footer__links {
     display: grid;
     grid-template-rows: repeat(5, auto-fit);
@@ -17,4 +17,3 @@
     margin-top: 60px;
   }
 }
-

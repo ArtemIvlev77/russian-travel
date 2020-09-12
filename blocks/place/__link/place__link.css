@@ -6,6 +6,7 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   transition: opacity .2s linear;
+  padding-top: 12px
 }
 
 .place__link:hover {

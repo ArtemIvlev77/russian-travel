@@ -1,5 +1,5 @@
 .lead__subtitle {
-  width: 690px;
+  width: 640px;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 709px) {
   .lead__subtitle {
     max-width: 380px;
     font-size: 18px;
